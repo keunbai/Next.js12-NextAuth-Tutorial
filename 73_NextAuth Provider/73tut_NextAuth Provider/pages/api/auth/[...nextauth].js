@@ -1,4 +1,3 @@
-
 //? Old ver.
 /*
 import NextAuth from 'next-auth'
@@ -24,8 +23,7 @@ export default NextAuth({
       clientSecret: process.env.GITHUB_SECRET
     })
   ],
-  //session: {strategy: "jwt"},
-  secret: process.env.NEXT_PUBLIC_SECRET
+  secret: process.env.NEXTAUTH_SECRET
 })
 
 //? NextAuth() 본체가 없는데??
